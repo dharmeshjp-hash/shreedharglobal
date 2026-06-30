@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shreedhar Global | Accounting Beyond Borders</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f5f8fc;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:#0d3b66;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+color:white;
+font-size:28px;
+font-weight:700;
+}
+
+.logo span{
+color:#ffd166;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+}
+
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(rgba(13,59,102,.85),rgba(13,59,102,.85)),
+url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+color:white;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:22px;
+max-width:800px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:35px;
+padding:15px 35px;
+background:#ffd166;
+color:#0d3b66;
+text-decoration:none;
+font-weight:bold;
+border-radius:40px;
+transition:.3s;
+}
+
+.btn:hover{
+background:white;
+}
+
+.services{
+padding:80px 8%;
+text-align:center;
+}
+
+.services h2{
+font-size:40px;
+margin-bottom:50px;
+color:#0d3b66;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#0d3b66;
+}
+
+.about{
+padding:80px 10%;
+background:white;
+text-align:center;
+}
+
+.about h2{
+font-size:40px;
+margin-bottom:25px;
+color:#0d3b66;
+}
+
+.cta{
+background:#0d3b66;
+color:white;
+text-align:center;
+padding:70px 20px;
+}
+
+.cta h2{
+font-size:38px;
+margin-bottom:20px;
+}
+
+footer{
+background:#061d34;
+color:white;
+padding:25px;
+text-align:center;
+}
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+padding:18px 22px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 10px 20px rgba(0,0,0,.3);
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:38px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+nav{
+display:none;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+SHREEDHAR <span>GLOBAL</span>
+</div>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>Accounting Beyond Borders</h1>
+
+<p>
+
+Professional Accounting, Bookkeeping, Taxation and Business Advisory Services
+for Companies across India and Worldwide.
+
+</p>
+
+<a href="tel:+919106130309" class="btn">
+Call Now
+</a>
+
+</div>
+
+</section>
+
+<section class="services">
+
+<h2>Our Services</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Accounting</h3>
+<p>Professional bookkeeping and financial accounting services.</p>
+</div>
+
+<div class="card">
+<h3>GST Compliance</h3>
+<p>GST Registration, Return Filing and Advisory.</p>
+</div>
+
+<div class="card">
+<h3>Income Tax</h3>
+<p>Individual and Business Income Tax solutions.</p>
+</div>
+
+<div class="card">
+<h3>Payroll</h3>
+<p>Payroll processing and employee compliance.</p>
+</div>
+
+<div class="card">
+<h3>ROC Compliance</h3>
+<p>Company law and MCA compliance services.</p>
+</div>
+
+<div class="card">
+<h3>International Accounting</h3>
+<p>Accounting outsourcing for global businesses.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="about">
+
+<h2>Why Shreedhar Global?</h2>
+
+<p>
+
+We help businesses simplify accounting, taxation and compliance with
+professional, reliable and affordable services. Our mission is to become a
+trusted accounting partner for clients across India and around the world.
+
+</p>
+
+</section>
+
+<section class="cta">
+
+<h2>Let's Grow Your Business Together</h2>
+
+<p>
+
+Ahmedabad, India<br>
+
+📞 +91 91061 30309
+
+</p>
+
+<br>
+
+<a href="tel:+919106130309" class="btn">
+
+Get Free Consultation
+
+</a>
+
+</section>
+
+<footer>
+
+© 2026 Shreedhar Global • Accounting Beyond Borders
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919106130309">
+
+WhatsApp
+
+</a>
+
+</body>
+
+</html>
